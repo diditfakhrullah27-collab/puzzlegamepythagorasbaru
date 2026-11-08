@@ -1,0 +1,8 @@
+{
+  "name": "Remix puzzlegamepythagoras",
+  "description": "Imported from GitHub: jualakungame37-lgtm/puzzlegamepythagoras",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

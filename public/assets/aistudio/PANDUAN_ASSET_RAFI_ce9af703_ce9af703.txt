@@ -1,0 +1,21 @@
+PAKET ASSET RAFI – PYTHAGORAS ADVENTURE
+
+Isi paket:
+1. rafi_character_and_game_assets.png
+   Sprite sheet karakter Rafi, ekspresi, pose, kotak dialog, tombol, ikon, dan item game.
+2. rafi_dialogue_assets.png
+   Sprite sheet tambahan dengan ekspresi Rafi, pose, beberapa panel dialog, dan tombol cerita.
+
+CARA PAKAI DI GOOGLE AI STUDIO
+1. Buka project game PYTHAGORAS ADVENTURE yang sudah ada.
+2. Upload kedua file PNG ini sebagai referensi visual / asset proyek.
+3. Minta AI Studio memeriksa gambar dan memotong sprite sheet menjadi aset PNG terpisah berdasarkan batas visual setiap elemen.
+4. Simpan aset di folder public/assets/rafi/ (atau folder aset yang sesuai dengan struktur proyek).
+5. Gunakan setiap ekspresi Rafi sebagai sprite berbeda. Saat dialog berlangsung, tukar ekspresi mulut terbuka/tertutup atau gunakan ekspresi bicara yang tersedia untuk memberi kesan berbicara.
+6. Tampilkan kotak dialog sebagai UI terpisah, bukan bagian dari gambar latar. Isi teks percakapan secara dinamis dari data dialog.
+
+PROMPT UNTUK AI STUDIO
+"Gunakan dua PNG asset sheet yang saya unggah sebagai sumber visual resmi karakter Rafi dan item dialog. Pertahankan desain karakter, pakaian, warna, dan proporsi yang konsisten. Periksa sprite sheet, potong setiap karakter, ekspresi, tombol, panel dialog, dan item menjadi file PNG terpisah dengan background transparan. Jangan menggambar ulang jika aset yang sesuai sudah tersedia. Buat sistem dialog visual novel dengan portrait Rafi, nama pembicara, teks typewriter, tombol lanjut/lewati/ulang, dan pergantian ekspresi. Untuk animasi bicara, gunakan pergantian sprite mulut tertutup dan terbuka selama dialog berjalan; jangan mengubah bentuk wajah atau membuat gerakan bibir yang tidak konsisten. Semua teks dialog harus berupa teks UI asli yang dapat diedit, bukan teks yang tertanam di gambar. Pastikan aset dipakai dalam game yang sudah ada tanpa menghapus atau merusak puzzle, level, skor, atau progres lama."
+
+CATATAN
+Gambar yang dihasilkan adalah sprite sheet referensi. AI Studio perlu memotongnya menjadi aset individual sebelum dipakai sebagai sprite terpisah. Periksa hasil crop dan transparansi sebelum mengintegrasikannya.
